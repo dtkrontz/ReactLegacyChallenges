@@ -4,7 +4,7 @@ export default class ToDoIndex extends Component {
     constructor (props) {
         super(props)
         this.state = {
-            tasks: ['ability to accept a task from a user', 'ability to add this to the state', 'ability to display all of the tasks', 'ability to evaluated if a task was completed and update the state, which actually means: this challenge asks for you to be able to mark a task as complete and remove that specific task from the state.'],
+            tasks: ['ability to accept a task from a user', 'ability to add this to the state', 'ability to display all of the tasks', 'ability to evaluated if a task was completed and update the state.'],
             newTasks: [],
             input: '',
         }

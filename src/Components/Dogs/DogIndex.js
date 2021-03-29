@@ -31,7 +31,7 @@ export default class DogIndex extends Component {
                 <br />
                 <Row>
                     <Col style={{textAlign: 'center'}}>
-                        <img src={this.state.dog.message} />
+                        <img src={this.state.dog.message} style={{maxHeight: '400px', width: 'auto'}}/>
                     </Col>
                 </Row>
             </div>
